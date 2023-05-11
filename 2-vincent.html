@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>project artem.</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/vincent.css">
+    <style>
+    .tombol{
+        color: var(--primary-color);
+        background-color: transparent;
+        text-decoration: none;
+        font-family: var(--desc-font);
+        font-weight: 500;
+        size: 18px;
+        border: none;
+        background: none;
+        padding: 8px 24px;
+        border-radius: 12px;
+        transition: background-color 0.5s ease;
+    }
+
+    .aktif{
+        color: #fff;
+        background-color: #7B7643;
+    }
+    </style>
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+</head>
+
+<body>
+  <header class="section-1" id="section-1">
+    <!-- place navbar here -->
+    <div class="halaman-1">
+      <div class="container-fluid navbar-bg" id="navbar">
+          <nav class="navbar navbar-expand-lg navbar-dark">
+              <div class="container">
+                <a class="navbar-brand" href="index.html">artem.</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse menu" id="navbarNavDropdown">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#section-1">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="7-about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="6-contact.html">Contact us</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+
+      <div class="hero-text">
+          <div class="text">
+              <h1>The Painters symphony</h1>
+              <p>Discover the World of Painters and Their Artistic Masterpieces.</p>
+          </div>
+      </div>
+      <div class="tengah-container" id="tengah" data-aos="fade-up" data-aos-duration="1200">
+        <div class="header">
+          <h5>Painters</h5>
+        </div>
+        <div class="wrap">
+          <div class="orang gelap"><a href="index.html"><h5>Leonardo Da Vince</h5></a></div>
+          <div class="orang aktip"><a href="2-vincent.html"><h5>Vincent Van Gogh</h5></a></div>
+          <div class="orang gelap"><a href="3-pablopicasso.html"><h5>Pablo Picasso</h5></a></div>
+          <div class="orang gelap"><a href="4-michaelangelo.html"><h5>Michaelangelo Buonarroti</h5></a></div>
+          <div class="orang gelap"><a href="5-salvador.html"><h5>Salvador Dali</h5></a></div>
+        </div>
+      </div>
+  </div>
+  </header>
+  <main class="section-2" id="section-2">
+    <div class="image-container">
+      <div class="foto foto-1" data-aos="fade-right"><img src="img/vincent/vincent (1).png" class="img-fluid"><div class="overlay"><p>The Siesta</p></div></div>
+      <div class="foto foto-2" data-aos="fade-right"><img src="img/vincent/The Starry Night.png" class="img-fluid"> <div class="overlay"><p>The Starry NightA</p></div></div>
+      <div class="foto foto-3" data-aos="fade-left"><img src="img/vincent/vincent.png" class="img-fluid"><div class="overlay"><p>Vincent Van Gogh</p></div></div><div></div>
+    </div>
+    <div class="text-container" data-aos="fade-left" data-aos-duration="1500">
+      <div class="wrapper">
+        <h1 class="title">Vincent <br> Van Gogh</h1>
+        <p class="desc a">Dutch painter, generally considered the greatest after Rembrandt van Rijn, 
+          and one of the greatest of the Post-Impressionists. The striking colour, emphatic brushwork, 
+          and contoured forms of his work powerfully influenced the current of Expressionism in 
+          modern art.</p>
+
+        <div class="bio a">
+          <div class="born">
+            <p class="desc">Born</p>
+            <p class="tanggal">March 30, 1853</p>
+          </div>
+          <div class="died">
+            <p class="desc">Died</p>
+            <p class="tanggal">July 29, 1890</p>
+          </div>
+        </div>
+
+        <div class="button">
+          <a class="btn-outline" href="https://en.m.wikipedia.org/wiki/Vincent_van_Gogh">Read more</a>
+        </div>
+      </div>
+    </div>
+    <hr class="mt-5" width="90%">
+  </main>
+  <div class="judul text-center" id="section-3">
+    <p class="sub">Vincent Van Gogh</p>
+    <h6 class="title">Paintings</h6>
+
+    <div class="tahun-container">
+      <div class="tahun"><button class="tombol aktif" id="button-a">Paris</button></div>
+      <div class="tahun"><button class="tombol" id="button-b">Arles</button></div>
+      <div class="tahun"><button class="tombol" id="button-c">Saint-Rémy</button></div>
+      <div class="tahun"><button class="tombol" id="button-d">Auvers-sur-Oise</button></div>
+    </div>
+  </div>
+
+  <section id="content-a">
+    <main class="section-3">
+        <div class="card card-1">
+          <img src="img/vincent/gambar1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Le Moulin de Blute-Fin (1886)</h5>
+            <p class="card-text desc more-text hidden">The name of these paintings comes from one of the most famous windmills in Paris. The windmill was positioned on a raised surface and overlooked the city, and this design made it sensational.</p>
+            <button class="btn btn-primary read-more">Read more</button>
+          </div>
+        </div>
+        <div class="card card-2"  data-aos-duration="1000">
+          <img src="img/vincent/gambar2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Terrace of a Cafe on Montmartre (1886)</h5>
+            <p class="card-text desc more-text hidden"> The painting depicts a bustling scene at a popular cafe in Montmartre, a neighborhood in Paris known for its vibrant nightlife and bohemian culture.</p>
+            <button class="btn btn-primary read-more">Read more</button>
+          </div>
+        </div>
+        <div class="card card-3"  data-aos-duration="1500">
+          <img src="img/vincent/gambar3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Imperial Fritillaries in a Copper Vase (1887)</h5>
+            <p class="card-text desc more-text hidden">Depicts a bouquet of golden imperial fritillaries in a copper vase, the shiny patina of which reflects the color of the flowers as the motted wall stands out with a combination colours.</p>
+            <button class="btn btn-primary read-more">Read more</button>
+          </div>
+        </div>
+        <div class="card card-4"  data-aos-duration="2000">
+          <img src="img/vincent/gambar4.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">View of Paris from Vincent's Room in the Rue Lepic (1887)</h5>
+            <p class="card-text desc more-text hidden">Van Gogh lived in an apartment in Montmartre,  above the city of Paris. This afforded him a beautiful view of the Paris skyline, which he painted several times.</p>
+            <button class="btn btn-primary read-more">Read more</button>
+          </div>
+        </div>
+        <div class="card card-5"  data-aos-duration="2500">
+          <img src="img/vincent/gambar5.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Italian Woman (1887)</h5>
+            <p class="card-text desc more-text hidden">This woman is without doubt Agostina Segatori (1843-1910), a former model of Corot, Gérôme and Manet with whom Van Gogh seems to have had a brief love affair a few months before this portrait was painted.</p>
+            <button class="btn btn-primary read-more">Read more</button>
+          </div>
+        </div>
+      </main>
+  </section>
+  <section id="content-b">
+    <main class="section-3">
+      <div class="card card-1" data-aos="fade-down-right">
+        <img src="img/vincent/sunf.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Sunflowers (1888)</h5>
+          <p class="card-text desc more-text hidden">This series of paintings depicts vases of sunflowers in various stages of bloom. Van Gogh painted a total of five versions of this scene, each with slightly different colors and arrangements.</p>
+          <button class="btn btn-primary read-more">Read more</button>
+        </div>
+      </div>
+      <div class="card card-2" data-aos="fade-down-right" data-aos-duration="1000">
+        
+        <img src="img/vincent/gambar7.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">The Sower (1888)</h5>
+          <p class="card-text desc more-text hidden">This painting is widely considered to be a representation of The Last Judgement in the gospel of Matthew. It speaks about how God sows the seeds of the spirit in the soil of humanity and returns on the last day to reap the harvest.</p>
+          <button class="btn btn-primary read-more">Read more</button>
+        </div>
+      </div>
+      <div class="card card-2" data-aos="fade-down-right" data-aos-duration="1000">
+        <img src="img/vincent/gambar8.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">The Yellow House (1888)</h5>
+          <p class="card-text desc more-text hidden">The Yellow House represented a place where anything was possible. This unremarkable place became a touchstone for the imagination, something beyond mere hope, it became an affirmation that this would indeed happen.</p>
+          <button class="btn btn-primary read-more">Read more</button>
+        </div>
+      </div>
+      <div class="card card-4" data-aos="fade-down-right" data-aos-duration="2000">
+        <img src="img/vincent/gambar9.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Starry Night Over the Rhône (1888)</h5>
+          <p class="card-text desc more-text hidden">Van Gogh captures his characteristic magical starlit sky, peeking through the darkness of night and twinkling off the river. This respite from the darkest of days is a moment of peace, a brightness when the weight of the world feels crushing and inescapable.</p>
+          <button class="btn btn-primary read-more">Read more</button>
+        </div>
+      </div>
+      <div class="card card-5" data-aos="fade-down-right" data-aos-duration="2500">
+        <img src="img/vincent/gambar10.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">The Starry Night (1889)</h5>
+          <p class="card-text desc more-text hidden">Van Gogh was seeking respite from  depression at Saint-Rémy in southern France when he painted The Starry Night. It reflects his direct observations of his view of the countryside from his window as well as the memories and emotions this view evoked in him.</p>
+          <button class="btn btn-primary read-more">Read more</button>
+        </div>
+      </div>
+    </main>
+  </section>
+  <section id="content-c">
+    <main class="section-3">
+      <div class="card card-1" data-aos="fade-down-right">
+        <img src="img/vincent/gambar11.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">The Starry Night (2nd version) (1889)</h5>
+          <p class="card-text desc more-text hidden">This painting features similar elements to the earlier version, with swirling stars and a crescent moon in a deep blue sky, but has a more somber and melancholic tone.</p>
+          <button class="btn btn-primary read-more">Read more</button>
+        </div>
+      </div>
+      <div class="card card-2" data-aos="fade-down-right" data-aos-duration="1000">
+        <img src="img/vincent/gambar12.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Hospital in Saint-Remy (1889)</h5>
+          <p class="card-text desc more-text hidden">This painting was created during his stay at the Saint-Paul-de-Mausole asylum in Saint-Rémy, France. The painting depicts the hospital where Van Gogh was a patient for a year.</p>
+          <button class="btn btn-primary read-more">Read more</button>
+        </div>
+      </div>
+      <div class="card card-3" data-aos="fade-down-right" data-aos-duration="1500">
+        <img src="img/vincent/gambar13.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Cypresses (1889)</h5>
+          <p class="card-text desc more-text hidden">This painting shows a row of tall, slender cypress trees against a blue and green background. The trees are rendered in Van Gogh's distinctive swirling brushstrokes.
+          </p>
+          <button class="btn btn-primary read-more">Read more</button>
+        </div>
+      </div>
+      <div class="card card-4" data-aos="fade-down-right" data-aos-duration="2000">
+        <img src="img/vincent/gambar14.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Irises (1889)</h5>
+          <p class="card-text desc more-text hidden">The irises represent the world of the mentally ill people who are in the hospital. Van Gogh is a member of that community, but he is different, he looks like a madman but he is not mad like the others, he simply suffers of epilepsy, at least that was the doctor's diagnosis.</p>
+          <button class="btn btn-primary read-more">Read more</button>
+        </div>
+      </div>
+      <div class="card card-5" data-aos="fade-down-right" data-aos-duration="2500">
+        <img src="img/vincent/gambar15.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Almond Blossoms (1890)</h5>
+          <p class="card-text desc more-text hidden">The almond blossom is also a symbol of bravery and courage, purity, hope, and love. From Greek mythology, the almond blossom is a symbol of eternal true love, unconquerable by death. For all accounts, the almond blossom is a sacred symbol, much like the apple blossom.          </p>
+          <button class="btn btn-primary read-more">Read more</button>
+        </div>
+      </div>
+    </main>
+  </section>
+  <section id="content-d">
+    <main class="section-3">
+      <div class="card card-1" data-aos="fade-down-right">
+        <img src="img/vincent/gambar16.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">The Church at Auvers (1890)</h5>
+          <p class="card-text desc more-text hidden">This painting shows the church in the town of Auvers-sur-Oise, with its distinctive red roof and tall steeple. Van Gogh painted several versions of this scene, each with slightly different colors and details.</p>
+          <button class="btn btn-primary read-more">Read more</button>
+        </div>
+      </div>
+      <div class="card card-2" data-aos="fade-down-right" data-aos-duration="1000">
+        <img src="img/vincent/gambar17.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Daubigny's Garden (1890)</h5>
+          <p class="card-text desc more-text hidden">This painting shows the garden of Charles-François Daubigny, a fellow artist who had lived in Auvers-sur-Oise before Van Gogh. It is a vibrant and colorful scene, with flowers, trees, and a small pond.</p>
+          <button class="btn btn-primary read-more">Read more</button>
+        </div>
+      </div>
+      <div class="card card-3" data-aos="fade-down-right" data-aos-duration="1500">
+        <img src="img/vincent/gambar18.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Wheatfields with Crows (1890)</h5>
+          <p class="card-text desc more-text hidden">It is often claimed that this was his very last work. The menacing sky, the crows and the dead-end path are said to refer to the end of his life approaching.
+          </p>
+          <button class="btn btn-primary read-more">Read more</button>
+        </div>
+      </div>
+      <div class="card card-4" data-aos="fade-down-right" data-aos-duration="2000">
+        <img src="img/vincent/gambar19.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Portrait of Dr. Gachet (1890)</h5>
+          <p class="card-text desc more-text hidden">This painting is a portrait of Dr. Paul Gachet, a physician who treated Van Gogh during his time in Auvers-sur-Oise. The portrait is notable for its vivid colors and expressive brushstrokes.
+          </p>
+          <button class="btn btn-primary read-more">Read more</button>
+        </div>
+      </div>
+      <div class="card card-4" data-aos="fade-down-right" data-aos-duration="2000">
+        <img src="img/vincent/gambar20.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">The Ravine (1890)</h5>
+          <p class="card-text desc more-text hidden">This painting shows a deep ravine with steep walls and a small stream running through it. The colors are rich and intense, with shades of green, blue, and purple creating a dramatic and moody atmosphere.</p>
+          <button class="btn btn-primary read-more">Read more</button>
+        </div>
+      </div>
+    </main>
+  </section>
+
+  <footer class="section-4">
+    <!-- place footer here -->
+    <p>©artem. | All Rights Reserved</p>
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+
+  <!-- button -->
+  <script src="js/readmore.js"></script>
+  <script src="js/ganti-button.js"></script>
+  <script src="js/ganti-konten.js"></script>
+  <script src="js/navbar-hidden.js"></script>
+  <script src="js/navbar-auto.js"></script>
+  <script src="js/navbar-stop.js"></script>
+
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>

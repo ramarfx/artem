@@ -1,0 +1,25 @@
+#content-a {
+  display: block;
+}
+
+#content-b {
+  display: none;
+}
+
+#content-c {
+  display: none;
+}
+#content-c main {
+  width: 70%;
+}
+
+#content-d {
+  display: none;
+}/*# sourceMappingURL=pablo.css.map */
+
+.halaman-1{
+  background: linear-gradient(180deg, rgba(124, 124, 124, 0) 69.81%, #FFFFFF 100%), linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+  ), url(../img/hero/pablo.png);
+}

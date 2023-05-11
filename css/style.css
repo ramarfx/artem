@@ -1,0 +1,470 @@
+@import url("https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+:root {
+  --title-font: "Reem Kufi Ink";
+  --desc-font: "poppins";
+  --primary-color:#7B7643;
+  --nav-color: #d1d1d1;
+}
+
+*, body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+}
+
+.sub {
+  font-family: var(--desc-font);
+  font-weight: 600;
+  color: var(--primary-color);
+  size: 18px;
+  margin-bottom: -3px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+
+.desc {
+  font-family: var(--desc-font);
+  font-weight: 400;
+  font-size: 1rem;
+  color: #848484;
+}
+
+.tanggal {
+  font-family: var(--desc-font);
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.btn-normal {
+  padding: 12px 32px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 12px;
+}
+
+.btn-normal:hover {
+  background-color: #8a844b;
+  color: white;
+}
+
+.btn-outline {
+  padding: 10px 24px;
+  background: none;
+  border-radius: 50px;
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  transition: 0.3s ease;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn-outline:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+header.section-1 {
+  height: 720px;
+}
+header.section-1 .halaman-1 {
+  width: 100%;
+  height: 710px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+}
+header.section-1 .halaman-1 .navbar-bg {
+  z-index: 99;
+  background: #d8dde0;
+  background: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: top 1s;
+}
+header.section-1 .halaman-1 .navbar-bg a.navbar-brand {
+  color: var(--nav-color);
+}
+header.section-1 .halaman-1 .navbar-bg a {
+  color: var(--nav-color);
+  position: relative;
+}
+header.section-1 .halaman-1 .navbar-bg .active {
+  color: white;
+}
+header.section-1 .halaman-1 .navbar-bg a.active::after {
+  content: "";
+  position: absolute;
+  bottom: 8%;
+  right: 15%;
+  width: 70%;
+  height: 2px;
+  background-color: white;
+}
+header.section-1 .halaman-1 .hero-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90%;
+  color: white;
+  text-align: center;
+  flex-wrap: wrap;
+  text-shadow: 4px 4px 16px rgba(0, 0, 0, 0.5);
+}
+header.section-1 .halaman-1 .hero-text h1 {
+  font-family: var(--desc-font);
+  font-weight: bold;
+  font-size: 64px;
+}
+header.section-1 .halaman-1 .hero-text p {
+  font-family: var(--desc-font);
+}
+header.section-1 .halaman-1 .tengah-container {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  bottom: 20%;
+}
+header.section-1 .halaman-1 .tengah-container .header {
+  width: 21%;
+  min-height: 80px;
+  height: 50px;
+  background-color: var(--primary-color);
+  text-align: center;
+  border-radius: 25px 25px 0 0;
+  padding: 12px 0 10px 0;
+  color: #FFFFFF;
+  box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.25);
+}
+header.section-1 .halaman-1 .tengah-container .wrap {
+  width: 80%;
+  height: 125px;
+  background-color: white;
+  margin-top: -6%;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid #DEDEDE;
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.2);
+}
+header.section-1 .halaman-1 .tengah-container .wrap .orang {
+  width: 150px;
+  font-family: var(--desc-font);
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  transition: 0.5;
+}
+header.section-1 .halaman-1 .tengah-container .wrap .orang h5 {
+  margin: 0;
+}
+header.section-1 .halaman-1 .tengah-container .wrap .orang a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+header.section-1 .halaman-1 .tengah-container .wrap .gelap:hover h5 {
+  color: #969052;
+}
+header.section-1 .halaman-1 .tengah-container .wrap .aktip a {
+  color: #FFFFFF;
+  background-color: var(--primary-color);
+  padding: 8px 24px;
+  border-radius: 12px;
+}
+header.section-1 .navbar-bg {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 9.9%, rgba(0, 0, 0, 0) 100%);
+  height: 10%;
+  width: 100%;
+}
+header.section-1 nav {
+  width: 100%;
+  height: 120px;
+}
+header.section-1 nav .navbar-brand {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  font-family: var(--title-font);
+}
+header.section-1 nav .menu {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  font-family: var(--desc-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #BBBDC3;
+}
+header.section-1 nav .nav-item {
+  margin-left: 3rem;
+}
+
+main.section-2 {
+  width: 90%;
+  margin: 9rem auto 5rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+main.section-2 .image-container {
+  max-width: -moz-max-content;
+  max-width: max-content;
+  height: 510px;
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
+  grid-template-rows: 240px 240px;
+  gap: 30px;
+  filter: drop-shadow(2px 4px 10px rgba(0, 0, 0, 0.3));
+}
+main.section-2 .image-container .foto {
+  border-radius: 20px;
+  overflow: hidden;
+}
+main.section-2 .image-container .overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s, filter 0.3s ease-in-out;
+}
+main.section-2 .image-container .overlay p {
+  color: #FFFFFF;
+  font-family: var(--desc-font);
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+}
+main.section-2 .image-container .foto-1 {
+  min-width: 220px;
+  min-height: 50%;
+  grid-row: 1/2;
+  grid-column: 1/2;
+}
+main.section-2 .image-container .foto-1 img {
+  position: relative;
+  width: 100%;
+  height: auto;
+  transition: 0.3s ease-in-out;
+}
+main.section-2 .image-container .foto-1:hover .overlay {
+  opacity: 1;
+}
+main.section-2 .image-container .foto-1:hover img {
+  filter: blur(10px);
+  filter: brightness(60%);
+}
+main.section-2 .image-container .foto-2 {
+  min-width: 240px;
+  min-height: 50%;
+  grid-row: 2/3;
+  grid-column: 1/2;
+}
+main.section-2 .image-container .foto-2 img {
+  position: relative;
+  width: 105%;
+  height: auto;
+  transition: 0.3s ease-in-out;
+}
+main.section-2 .image-container .foto-2:hover .overlay {
+  opacity: 1;
+}
+main.section-2 .image-container .foto-2:hover img {
+  filter: blur(1px);
+  filter: brightness(60%);
+}
+main.section-2 .image-container .foto-3 {
+  min-width: 320px;
+  grid-column: 2/3;
+  grid-row: 1/3;
+}
+main.section-2 .image-container .foto-3 img {
+  position: relative;
+  width: 100%;
+  height: auto;
+  transition: 0.3s ease-in-out;
+}
+main.section-2 .image-container .foto:hover .overlay {
+  opacity: 1;
+}
+main.section-2 .image-container .foto:hover img {
+  filter: blur(1px);
+  filter: brightness(60%);
+}
+main.section-2 .text-container {
+  width: 45%;
+  height: 510px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main.section-2 .text-container .wrapper {
+  width: 90%;
+}
+main.section-2 .text-container .wrapper h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+main.section-2 .text-container .wrapper .a {
+  margin-bottom: 40px;
+}
+main.section-2 .text-container .wrapper .bio {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+main.section-2 .text-container .wrapper .bio .born {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 2px;
+}
+main.section-2 .text-container .wrapper .bio .born p {
+  margin: 0;
+}
+main.section-2 .text-container .wrapper .bio .died {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 2px;
+}
+main.section-2 .text-container .wrapper .bio .died p {
+  margin: 0;
+}
+
+.tahun-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  margin-top: 30px;
+  max-width: -moz-max-content;
+  max-width: max-content;
+  height: 70px;
+  background: #FFFFFF;
+  border: 1px solid #DEDEDE;
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  margin-bottom: 4rem;
+}
+.tahun-container .tahun {
+  margin: 0 10px;
+}
+
+main.section-3 {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  -moz-column-gap: 3.5rem;
+       column-gap: 3.5rem;
+  flex-wrap: wrap;
+}
+main.section-3 .hidden {
+  display: none;
+}
+main.section-3 .card {
+  width: 23rem;
+  border: none;
+  font-family: var(--desc-font);
+}
+main.section-3 .card h5 {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+main.section-3 .card .card-img-top {
+  border-radius: 25px;
+  filter: drop-shadow(4px 4px 30px rgba(0, 0, 0, 0.3));
+}
+main.section-3 .card .card-body {
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 50px;
+}
+main.section-3 .card .card-body p {
+  margin-bottom: 10px;
+}
+main.section-3 .card .card-body button {
+  background: none;
+  border: none;
+  color: var(--primary-color);
+}
+
+footer.section-4 {
+  width: 100%;
+  height: 90px;
+  background: #232631;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer.section-4 p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  /* aturan CSS untuk ukuran layar maksimal 768 piksel */
+  .section-2 {
+    flex-direction: column;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  background-color: #2e2e2e;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a26735;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #2e2e2e;
+  border-radius: 10px;
+}/*# sourceMappingURL=style.css.map */

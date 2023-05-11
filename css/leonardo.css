@@ -1,0 +1,28 @@
+#content-a {
+  display: block;
+}
+
+#content-b {
+  display: none;
+}
+#content-b main {
+  width: 70%;
+}
+
+#content-c {
+  display: none;
+}
+
+#content-d {
+  display: none;
+}
+#content-d main {
+  width: 70%;
+}/*# sourceMappingURL=leonardo.css.map */
+
+.halaman-1{
+  background: linear-gradient(180deg, rgba(124, 124, 124, 0) 69.81%, #FFFFFF 100%), linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+  ), url(../img/hero/leonardp.png);
+}

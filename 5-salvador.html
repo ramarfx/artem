@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>project artem.</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/salvador.css">
+    <style>
+    .tombol{
+        color: var(--primary-color);
+        background-color: transparent;
+        text-decoration: none;
+        font-family: var(--desc-font);
+        font-weight: 500;
+        size: 18px;
+        border: none;
+        background: none;
+        padding: 8px 24px;
+        border-radius: 12px;
+        transition: background-color 0.5s ease;
+    }
+
+    .aktif{
+        color: #fff;
+        background-color: #7B7643;
+    }
+    </style>
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+</head>
+
+<body>
+  <header class="section-1" id="section-1">
+    <!-- place navbar here -->
+    <div class="halaman-1">
+      <div class="container-fluid navbar-bg" id="navbar">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+              <a class="navbar-brand" href="index.html">artem.</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse menu" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#section-1">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="7-about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="6-contact.html">Contact us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+
+        <div class="hero-text">
+            <div class="text">
+                <h1>The Painters symphony</h1>
+                <p>Discover the World of Painters and Their Artistic Masterpieces.</p>
+            </div>
+        </div>
+        <div class="tengah-container" data-aos="fade-up" data-aos-duration="1500">
+          <div class="header">
+            <h5>Painters</h5>
+          </div>
+          <div class="wrap">
+            <div class="orang gelap"><a href="index.html"><h5>Leonardo Da Vince</h5></a></div>
+            <div class="orang gelap"><a href="2-vincent.html"><h5>Vincent Van Gogh</h5></a></div>
+            <div class="orang gelap"><a href="3-pablopicasso.html"><h5>Pablo Picasso</h5></a></div>
+            <div class="orang gelap"><a href="4-michaelangelo.html"><h5>Michaelangelo Buonarroti</h5></a></div>
+            <div class="orang aktip"><a href="5-salvador.html"><h5>Salvador Dali</h5></a></div>
+          </div>
+        </div>
+    </div>
+  </header>
+  <main class="section-2" id="section-2">
+    <div class="image-container">
+      <div class="foto foto-1" data-aos="fade-right"><img src="img/salvador/painting1.png" class="img"><div class="overlay"><p>The Persistence of Memory</p></div></div>
+      <div class="foto foto-2" data-aos="fade-right"><img src="img/salvador/beautyinteror.png" class="img"> <div class="overlay"><p>Beauty In Teror</p></div></div>
+      <div class="foto foto-3" data-aos="fade-left"><img src="img/salvador/salvador.png" class="img"><div class="overlay"><p>Salvador Dali</p></div></div><div></div>
+    </div>
+    <div class="text-container" data-aos="fade-left" data-aos-duration="1500">
+      <div class="wrapper">
+        <h1 class="title">Salvador <br> Dali</h1>
+        <p class="desc a">An author, artist and provocateur, Salvador Dalí was one of the most 
+          notable figures of the Surrealist movement. Born in 1904 in Figueras, Catalonia, 
+          Dalí studied art in Madrid and Barcelona, where he demonstrated masterful painting 
+          skills and experimented with several artistic styles.</p>
+        <div class="bio a">
+          <div class="born">
+            <p class="desc">Born</p>
+            <p class="tanggal">May 11, 1904</p>
+          </div>
+          <div class="died">
+            <p class="desc">Died</p>
+            <p class="tanggal">January 23, 1989</p>
+          </div>
+        </div>
+
+        <div class="button">
+          <a class="btn-outline" href="https://en.m.wikipedia.org/wiki/Salvador_Dal%C3%AD">Read more</a>
+        </div>
+      </div>
+    </div>
+    <hr class="mt-5" width="90%">
+  </main>
+  <div class="judul text-center" id="section-3">
+    <p class="sub">Vincent Van Gogh</p>
+    <h6 class="title">Paintings</h6>
+
+    <div class="tahun-container">
+      <div class="tahun"><button class="tombol aktif" id="button-a">1930s</button></div>
+      <div class="tahun"><button class="tombol" id="button-b">1940s</button></div>
+      <div class="tahun"><button class="tombol" id="button-c">1950s</button></div>
+    </div>
+  </div>
+
+  <section id="content-a">
+    <main class="section-3">
+        <div class="card card-1">
+          <img src="img/salvador/gambar1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">The Persistence of Memory (1931)</h5>
+            <p class="card-text desc more-text hidden">Depicts a barren landscape with a number of surreal and dreamlike elements. In the foreground, there are several melting pocket watches draped over various objects, including a tree branch and a distorted face.</p>
+            <button class="btn btn-primary read-more">Read more</button>
+          </div>
+        </div>
+        <div class="card card-2"  data-aos-duration="1000">
+          <img src="img/salvador/gambar2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Soft Construction with Boiled Beans (1936)</h5>
+            <p class="card-text desc more-text hidden"> The boiled beans in the title refer to a traditional Spanish dish, but here they are presented in a grotesque and unsettling manner, symbolizing the chaos and destruction of the war.</p>
+            <button class="btn btn-primary read-more">Read more</button>
+          </div>
+        </div>
+        <div class="card card-3"  data-aos-duration="1500">
+          <img src="img/salvador/gambar3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Swans Reflecting Elephants (1937)</h5>
+            <p class="card-text desc more-text hidden">The painting depicts three swans gliding on the surface of a lake. The reflections are the heads of elephants, which merge seamlessly with the swans to create a dreamlike and surreal image.</p>
+            <button class="btn btn-primary read-more">Read more</button>
+          </div>
+        </div>
+        <div class="card card-4"  data-aos-duration="2000">
+          <img src="img/salvador/gambar4.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Metamorphosis of Narcissus (1937)</h5>
+            <p class="card-text desc more-text hidden">The painting depicts the Greek mythological figure of Narcissus, who is kneeling by a pool of water and gazing at his own reflection. However, his reflection is shown to be metamorphosing into a hand holding an egg, which is also being reflected in the water.           </p>
+            <button class="btn btn-primary read-more">Read more</button>
+          </div>
+        </div>
+        <div class="card card-5"  data-aos-duration="2500">
+          <img src="img/salvador/gambar5.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">The Burning Giraffe (1937)</h5>
+            <p class="card-text desc more-text hidden">The painting is believed to be inspired by Sigmund Freud's theories and represents the transformation of the human psyche through fire. It is also thought to reflect the political turmoil in Spain at the time, with the burning giraffe symbolizing the destruction of traditional values and the rise of fascism.</p>
+            <button class="btn btn-primary read-more">Read more</button>
+          </div>
+        </div>
+      </main>
+  </section>
+  <section id="content-b">
+    <main class="section-3">
+      <div class="card card-1" data-aos="fade-down-right">
+        <img src="img/salvador/gambar6.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">The Face of War (1940)</h5>
+          <p class="card-text desc more-text hidden">A painting during World War II. It depicts a gruesome image of a disembodied head of a soldier, mouth gaping and eyes bulging, surrounded by dark and distorted shapes.
+            Dali's intents to convey the horror and brutality of war through this painting, and it has been considered one of his most powerful.</p>
+          <button class="btn btn-primary read-more">Read more</button>
+        </div>
+      </div>
+      <div class="card card-2" data-aos="fade-down-right" data-aos-duration="1000">
+        
+        <img src="img/salvador/gambar7.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Dream Caused by the Flight of a Bee (1944)</h5>
+          <p class="card-text desc more-text hidden">This represents the fleeting nature of dreams and the way they can blend reality and fantasy. The pomegranate symbolizes fertility and sensuality, while the bee symbolizes of industry and hard work.</p>
+          <button class="btn btn-primary read-more">Read more</button>
+        </div>
+      </div>
+      <div class="card card-2" data-aos="fade-down-right" data-aos-duration="1000">
+        <img src="img/salvador/gambar8.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">The Temptation of St. Anthony (1946)</h5>
+          <p class="card-text desc more-text hidden">The painting is believed to be a representation of the struggle between good and evil, with St. Anthony representing the triumph of virtue over temptation.</p>
+          <button class="btn btn-primary read-more">Read more</button>
+        </div>
+      </div>
+      <div class="card card-4" data-aos="fade-down-right" data-aos-duration="2000">
+        <img src="img/salvador/gambar9.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">The Madonna of Port Lligat (1949)</h5>
+          <p class="card-text desc more-text hidden">This painting represent a kind of transition for Dali, away from a complete adherence to avant-garde principles, towards a fusion of the same with more classical and religious traditions.</p>
+          <button class="btn btn-primary read-more">Read more</button>
+        </div>
+      </div>
+    </main>
+  </section>
+  <section id="content-c">
+    <main class="section-3">
+      <div class="card card-1" data-aos="fade-down-right">
+        <img src="img/salvador/gambar11.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Christ of Saint John of the Cross (1951)</h5>
+          <p class="card-text desc more-text hidden">Dali's depiction of Christ with an elongated and almost weightless body, and his emphasis on the beauty of suffering and sacrifice has made the painting a powerful symbol of Christian faith.</p>
+          <button class="btn btn-primary read-more">Read more</button>
+        </div>
+      </div>
+      <div class="card card-2" data-aos="fade-down-right" data-aos-duration="1000">
+        <img src="img/salvador/gambar12.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Galatea of The Spheres (1952)</h5>
+          <p class="card-text desc more-text hidden">The composition of the painting is intricate and detailed, with many smaller spheres contained within larger ones, almost like a planetary system. The painting is dreamlike and otherworldly, capturing the essence of Dali's unique artistic style.</p>
+          <button class="btn btn-primary read-more">Read more</button>
+        </div>
+      </div>
+      <div class="card card-3" data-aos="fade-down-right" data-aos-duration="1500">
+        <img src="img/salvador/gambar13.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">The Disintegration of the Persistence of Memory (1952)</h5>
+          <p class="card-text desc more-text hidden">A continuation and evolution of Dali's iconic "The Persistence of Memory" painting, featuring the same surreal, dreamlike landscape with melting clocks and distorted objects, but in a state of disintegration.</p>
+          <button class="btn btn-primary read-more">Read more</button>
+        </div>
+      </div>
+      <div class="card card-4" data-aos="fade-down-right" data-aos-duration="2000">
+        <img src="img/salvador/gambar14.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">The Sacrament of the Last Supper (1955)</h5>
+          <p class="card-text desc more-text hidden">Depicts the biblical scene of the Last Supper, with Jesus Christ and his twelve apostles gathered around a long table, sharing a meal. However, Dali's interpretation of the scene is highly symbolic and surrealistic, with many unusual elements and distortions.</p>
+          <button class="btn btn-primary read-more">Read more</button>
+        </div>
+      </div>
+    </main>
+  </section>
+
+  <footer class="section-4">
+    <!-- place footer here -->
+    <p>©artem. | All Rights Reserved</p>
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+
+  <!-- button -->
+  <script src="js/readmore.js"></script>
+  <script src="js/ganti-button.js"></script>
+  <script src="js/ganti-konten.js"></script>
+  <script src="js/navbar-hidden.js"></script>
+
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>

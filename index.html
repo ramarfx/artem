@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>project artem.</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/leonardo.css">
+    <style>
+    .tombol{
+        color: var(--primary-color);
+        background-color: transparent;
+        text-decoration: none;
+        font-family: var(--desc-font);
+        font-weight: 500;
+        size: 18px;
+        border: none;
+        background: none;
+        padding: 8px 24px;
+        border-radius: 12px;
+        transition: background-color 0.5s ease;
+    }
+
+    .aktif{
+        color: #fff;
+        background-color: #7B7643;
+    }
+    </style>
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+</head>
+
+<body>
+  <header class="section-1" id="section-1">
+    <!-- place navbar here -->
+    <div class="halaman-1">
+        <div class="container-fluid navbar-bg" id="navbar">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+              <div class="container">
+                <a class="navbar-brand" href="index.html">artem.</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse menu" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#section-1">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="7-about.html">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="6-contact.html">Contact us</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            </div>
+
+        <div class="hero-text" id="section1">
+            <div class="text">
+                <h1>The Painters symphony</h1>
+                <p>Discover the World of Painters and Their Artistic Masterpieces.</p>
+            </div>
+        </div>
+        <div class="tengah-container" id="tengah" data-aos="fade-up" data-aos-duration="1200">
+          <div class="header">
+            <h5>Painters</h5>
+          </div>
+          <div class="wrap">
+            <div class="orang aktip"><a href="index.html"><h5>Leonardo Da Vince</h5></a></div>
+            <div class="orang gelap"><a href="2-vincent.html"><h5>Vincent Van Gogh</h5></a></div>
+            <div class="orang gelap"><a href="3-pablopicasso.html"><h5>Pablo Picasso</h5></a></div>
+            <div class="orang gelap"><a href="4-michaelangelo.html"><h5>Michaelangelo Buonarroti</h5></a></div>
+            <div class="orang gelap"><a href="5-salvador.html"><h5>Salvador Dali</h5></a></div>
+          </div>
+        </div>
+    </div>
+  </header>
+  <main class="section-2" id="section-2">
+    <div class="image-container">
+      <div class="foto foto-1" data-aos="fade-right"><img src="img/monalisa.png" class="img-fluid"><div class="overlay"><p>Mona Lisa</p></div></div>
+      <div class="foto foto-2" data-aos="fade-right"><img src="img/supper.png" class="img-fluid"> <div class="overlay"><p>The Last Supper</p></div></div>
+      <div class="foto foto-3" data-aos="fade-left"><img src="img/leonardo.png" class="img-fluid"><div class="overlay"><p>Leonardo Da Vinci</p></div></div><div></div>
+    </div>
+    <div class="text-container" data-aos="fade-left" data-aos-duration="1500">
+      <div class="wrapper">
+        <h1 class="title">Leonardo <br> Da Vinci</h1>
+        <p class="desc a">a Renaissance artist, inventor, and scientist who
+          is widely regarded as one of the greatest minds 
+          in human history. He was born in the town of 
+          Vinci, Italy, and was the illegitimate son of a 
+          wealthy notary and a peasant woman.</p>
+
+        <div class="bio a">
+          <div class="born">
+            <p class="desc">Born</p>
+            <p class="tanggal">April 15, 1452</p>
+          </div>
+          <div class="died">
+            <p class="desc">Died</p>
+            <p class="tanggal">May 2, 1519</p>
+          </div>
+        </div>
+
+        <div class="button">
+          <a class="btn-outline" href="https://en.m.wikipedia.org/wiki/Leonardo_da_Vinci">Read More</a>
+        </div>
+      </div>
+    </div>
+    <hr class="mt-5" width="90%">
+  </main>
+  <div class="judul text-center" id="section-3">
+    <p class="sub">Leonardo Da Vinci</p>
+    <h6 class="title">Paintings</h6>
+
+    <div class="tahun-container">
+      <div class="tahun"><button class="tombol aktif" id="button-a">1470s</button></div>
+      <div class="tahun"><button class="tombol" id="button-b">1480s</button></div>
+      <div class="tahun"><button class="tombol" id="button-c">1490s</button></div>
+      <div class="tahun"><button class="tombol" id="button-d">1500s</button></div>
+    </div>
+  </div>
+
+  <section id="content-a">
+    <main class="section-3">
+        <div class="card card-1">
+          <img src="img/gambar1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Baptism of Christ (1470)</h5>
+            <p class="card-text desc more-text hidden">Painted while Leonardo was still in Verrocchio’s studio. The painting shows the baptism of Christ by John – the Baptist.</p>
+            <button class="btn btn-primary read-more">Read more</button>
+          </div>
+        </div>
+        <div class="card card-2"  data-aos-duration="1000">
+          <img src="img/gambar2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Annunciation (1472)</h5>
+            <p class="card-text desc more-text hidden">The annunciation is a classical religious theme that has been around since the 4th century. It depicts *usually* the Archangel Gabriel announcing to the Virgin Mary that she will give birth</p>
+            <button class="btn btn-primary read-more">Read more</button>
+          </div>
+        </div>
+        <div class="card card-3"  data-aos-duration="1500">
+          <img src="img/gambar3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Madonna of Carnation (1472)</h5>
+            <p class="card-text desc more-text hidden">For centuries, Madonna and Child with Flowers was considered lost. In 1909, the architect Leon Benois sensationally exhibited it in Saint Petersburg as part of his father-in-law's collection.</p>
+            <button class="btn btn-primary read-more">Read more</button>
+          </div>
+        </div>
+        <div class="card card-4"  data-aos-duration="2000">
+          <img src="img/gambar4.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Ginevra de’ Benci (1474)</h5>
+            <p class="card-text desc more-text hidden">This is a portrait of Ginevra de’ Benci (born 1458) that is said to be 
+              painted to celebrate her marriage to Luigi di Bernardo Niccolini when she 
+              was 16 years old.</p>
+            <button class="btn btn-primary read-more">Read more</button>
+          </div>
+        </div>
+        <div class="card card-5"  data-aos-duration="2500">
+          <img src="img/gambar5.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Benois Madonna (1478)</h5>
+            <p class="card-text desc more-text hidden">Young Virgin Mary with her naked Baby Jesus on her lap. She is holding a carnation (interpreted as a healing symbol).</p>
+            <button class="btn btn-primary read-more">Read more</button>
+          </div>
+        </div>
+      </main>
+  </section>
+  <section id="content-b">
+    <main class="section-3">
+      <div class="card card-1" data-aos="fade-down-right">
+        <img src="img/gambar6.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">St. Jerome In The Wilderness (1480)</h5>
+          <p class="card-text desc more-text hidden">The painting depicts Saint Jerome during his retreat to the Syrian desert. St Jerome kneels in a rocky landscape, gazing toward a crucifix.</p>
+          <button class="btn btn-primary read-more">Read more</button>
+        </div>
+      </div>
+      <div class="card card-2" data-aos="fade-down-right" data-aos-duration="1000">
+        <img src="img/gambar7.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Adoration of The Magi (1481)</h5>
+          <p class="card-text desc more-text hidden">One of Leonardo’s first commissions by the Augustinian monks of San Donato a Scopeto in Florence. Although Leonardo didn’t finish it and left for Milan, it is still considered a masterpiece and has been in the Uffizi since 1670</p>
+          <button class="btn btn-primary read-more">Read more</button>
+        </div>
+      </div>
+      <div class="card card-4" data-aos="fade-down-right" data-aos-duration="2000">
+        <img src="img/gambar9.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Virgins of The Rocks (1483)</h5>
+          <p class="card-text desc more-text hidden">This painting depicts the apocryphal legend of the meeting in the wilderness between the young John the Baptist and Jesus returning home from Egypt..</p>
+          <button class="btn btn-primary read-more">Read more</button>
+        </div>
+      </div>
+      <div class="card card-5" data-aos="fade-down-right" data-aos-duration="2500">
+        <img src="img/gambar10.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Lady With an Ermine (1489)</h5>
+          <p class="card-text desc more-text hidden">A portrait of Cecilia Gallerani who was the mistress of Ludovico Sforza, Duke of Milan. Leonardo was probaly in the service of the Duke when this was painted. The ermine is though to symbolize purity.</p>
+          <button class="btn btn-primary read-more">Read more</button>
+        </div>
+      </div>
+    </main>
+  </section>
+  <section id="content-c">
+    <main class="section-3">
+      <div class="card card-1" data-aos="fade-down-right">
+        <img src="img/gambar11.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Portrait of A Musician (1490)</h5>
+          <p class="card-text desc more-text hidden">The man in the painting was at one time thought to be Franchino Gaffurio, who was the maestro di cappella of the Milanese Cathedral. Although some believe it to be a portrait of Gaffurio..</p>
+          <button class="btn btn-primary read-more">Read more</button>
+        </div>
+      </div>
+      <div class="card card-2" data-aos="fade-down-right" data-aos-duration="1000">
+        <img src="img/gambar12.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">La Belle Ferronnière (1490)</h5>
+          <p class="card-text desc more-text hidden">La belle ferronnière is a name given to a portrait in The Louvre of a woman, usually attributed to Leonardo da Vinci. It is also known as Portrait of an Unknown Woman.</p>
+          <button class="btn btn-primary read-more">Read more</button>
+        </div>
+      </div>
+      <div class="card card-3" data-aos="fade-down-right" data-aos-duration="1500">
+        <img src="img/gambar13.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Sala delle Asse (1496)</h5>
+          <p class="card-text desc more-text hidden">The location for a wall and ceiling painting in tempera on plaster, of decorated "intertwining plants with fruits and monochromes of roots and rocks", by Leonardo da Vinci, located in the Castello Sforzesco in Milan.
+          </p>
+          <button class="btn btn-primary read-more">Read more</button>
+        </div>
+      </div>
+      <div class="card card-4" data-aos="fade-down-right" data-aos-duration="2000">
+        <img src="img/gambar14.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">St. Anne Cartoon (1499)</h5>
+          <p class="card-text desc more-text hidden">The drawing depicts the Virgin Mary seated on the knees of her mother St Anne and holding the Child Jesus while St. John the Baptist, the cousin of Jesus, stands to the right.</p>
+          <button class="btn btn-primary read-more">Read more</button>
+        </div>
+      </div>
+      <div class="card card-5" data-aos="fade-down-right" data-aos-duration="2500">
+        <img src="img/gambar15.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Madonna of The Yarwinders (1499)</h5>
+          <p class="card-text desc more-text hidden">The composition shows the Virgin Mary seated in a landscape with the Christ child. The yarnwinder serves both as a symbol of Mary's domesticity and as a foreshadowing of the Cross on which Christ was crucified.</p>
+          <button class="btn btn-primary read-more">Read more</button>
+        </div>
+      </div>
+    </main>
+  </section>
+  <section id="content-d">
+    <main class="section-3">
+      <div class="card card-1" data-aos="fade-down-right">
+        <img src="img/gambar16.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Leda And The Swan (1504)</h5>
+          <p class="card-text desc more-text hidden">The drawing depicts the Virgin Mary seated on the knees of her mother St Anne and holding the Child Jesus while St. John the Baptist, the cousin of Jesus, stands to the right.</p>
+          <button class="btn btn-primary read-more">Read more</button>
+        </div>
+      </div>
+      <div class="card card-2" data-aos="fade-down-right" data-aos-duration="1000">
+        <img src="img/gambar17.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">The Battle of Anghiari (1505)</h5>
+          <p class="card-text desc more-text hidden">This paintings is usually referred to as Leonardo's Lost painting or "the Lost Leonardo." It was painted around 1505 and represents the battle of Anghiari that took place in 1440.</p>
+          <button class="btn btn-primary read-more">Read more</button>
+        </div>
+      </div>
+      <div class="card card-3" data-aos="fade-down-right" data-aos-duration="1500">
+        <img src="img/gambar18.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">La Scapigliata (1508)</h5>
+          <p class="card-text desc more-text hidden">xAnother lost painting by Leonardo.
+            We have a few sketches by his own hand and many copies of the actual painting by others. He supposedly painted or at least planned to paint two different versions. One is 1504 the other in 1508.
+          </p>
+          <button class="btn btn-primary read-more">Read more</button>
+        </div>
+      </div>
+      <div class="card card-4" data-aos="fade-down-right" data-aos-duration="2000">
+        <img src="img/gambar19.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Salvator Mundi (1506)</h5>
+          <p class="card-text desc more-text hidden">Depicts Christ in an anachronistic blue Renaissance dress, making the sign of the cross with his right hand, while holding a transparent, non-refracting crystal orb in his left, signaling his role as Salvator Mundi and representing the 'celestial sphere' of the heavens.</p>
+          <button class="btn btn-primary read-more">Read more</button>
+        </div>
+      </div>
+    </main>
+  </section>
+
+  <footer class="section-4">
+    <!-- place footer here -->
+    <p>©artem. | All Rights Reserved</p>
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+
+  <!-- button -->
+  <script src="js/readmore.js"></script>
+  <script src="js/ganti-button.js"></script>
+  <script src="js/ganti-konten.js"></script>
+  <!-- <script src="js/navbar-hidden.js"></script> -->
+  <script src="js/navbar-stop.js"></script>
+  <script src="js/navbar-auto.js"></script>
+  <script src="js/link-animation.js"></script>
+
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
